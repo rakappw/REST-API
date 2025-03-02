@@ -8,7 +8,6 @@ Proyek ini adalah aplikasi API sederhana menggunakan Golang dengan framework Gin
 - Mengambil data provinsi dari API eksternal
 - Menyimpan data ke dalam database MySQL
 - Menyediakan endpoint untuk mendapatkan daftar provinsi
-- Logging dan error handling
 
 ## Instalasi
 ### Prasyarat
@@ -20,7 +19,7 @@ Sebelum menjalankan proyek ini, pastikan Anda sudah menginstal:
 ### Cara Menjalankan
 1. Clone repository ini:
    ```sh
-   git clone https://github.com/username/provinces-api.git
+   git clone https://github.com/rakappw/provinces-api.git
    cd provinces-api
    ```
 2. Instal dependensi:
@@ -65,8 +64,4 @@ GET /sync-provinces
 }
 ```
 
-Proyek ini menggunakan lisensi MIT. Anda bebas menggunakannya dengan ketentuan yang berlaku.
-
----
-Jika ada pertanyaan atau masalah, silakan ajukan di bagian **Issues** pada repository ini. 😊
 
